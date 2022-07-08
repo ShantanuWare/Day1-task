@@ -1,0 +1,21 @@
+Difference between HTTP1.1 vs HTTP2
+
+Http1.1 works on textual format where http2 works on binary protocol.
+In http1.1 head of line blocking that blocks all the requests behind it until it doesn’t get its al resources, in http2 It allows multiplexing so one TCP connection is required for multiple requests
+Unlike hhtp1.1,  http2’s ability to transmit more data per client-server communication cycle greatly improves web performance
+Page load speed is better than http1.1 in http2
+
+Write a blog about objects and its internal representation in Javascript
+Objects are used to store collection of data and more complex entities. 
+This are used to group related data and code.using objectes we can create complex things.
+Object values are written as name: value
+objects are declare by const keyword
+Example:
+const user={name:"Shantanu"}
+Objects with Multiple properties
+const user = {
+  firstName: "Shantanu"
+  lastName: "Ware"
+  age: 23
+  address: "A/p Sakharwadi Dist: Satara Pin: 415522"
+};
